@@ -1,0 +1,6 @@
+TestApplication.log
+*.iws
+.classpath
+.project
+*.eml
+*.ipr
