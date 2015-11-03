@@ -106,7 +106,6 @@ public class TestApplicationController {
 
     public void start() {
         new Thread(new Runnable() {
-            @Override
             public void run() {
             }
         }).start();
@@ -164,7 +163,6 @@ public class TestApplicationController {
             });
 
         }
-        @Override
         public void newActivation(String[] strings) {
             show();
         }

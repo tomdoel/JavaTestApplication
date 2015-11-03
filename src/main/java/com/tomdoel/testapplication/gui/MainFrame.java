@@ -43,7 +43,6 @@ public class MainFrame extends StatusObservable<MainFrame.MainWindowVisibility> 
 
     public void show() {
         java.awt.EventQueue.invokeLater(new Runnable() {
-            @Override
             public void run() {
                 container.setVisible(true);
                 container.requestFocus();
@@ -54,7 +53,6 @@ public class MainFrame extends StatusObservable<MainFrame.MainWindowVisibility> 
 
     public void hide() {
         java.awt.EventQueue.invokeLater(new Runnable() {
-            @Override
             public void run() {
                 container.setVisible(false);
                 notifyStatusChanged(MainWindowVisibility.HIDDEN);
@@ -68,7 +66,6 @@ public class MainFrame extends StatusObservable<MainFrame.MainWindowVisibility> 
 
     public void addMainPanel(final Container panel) {
         java.awt.EventQueue.invokeLater(new Runnable() {
-            @Override
             public void run() {
                 container.add(panel);
             }
