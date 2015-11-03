@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for Test Application -->
+<jnlp
+  codebase="$project.Url/uploader/"
+  href="$outputFile">
+  <information>
+    <title>$project.name</title>
+    <vendor>$project.Organization.Name</vendor>
+    <description>$project.Description</description>
+    <description kind="short">Test Application</description>
+    <icon href="res/icon.ico"/>
+    <offline-allowed/>
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Xmx768m"/>
+	$dependencies
+  </resources>
+  <application-desc main-class="$mainClass"/>
+</jnlp>
