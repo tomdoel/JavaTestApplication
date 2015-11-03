@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) Tom Doel 2015. Released under the BSD-3 license.
+  -->
+
+<metadata>
+  <groupId>com.tomdoel.testapplication.localrepo</groupId>
+  <artifactId>joda-time</artifactId>
+  <versioning>
+    <release>1.5</release>
+    <versions>
+      <version>1.5</version>
+    </versions>
+    <lastUpdated>20150505154819</lastUpdated>
+  </versioning>
+</metadata>
